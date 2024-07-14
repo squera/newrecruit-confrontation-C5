@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5fd679b4-a5a1-6c30-3721-e2bf973a23b8" name="Confrontation [C5]" revision="20" battleScribeVersion="2.03" authorName="squera" authorContact="squer4@gmail.com" authorUrl="http://confrontation.cdritalia.org/forum/viewforum.php?f=5" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="5fd679b4-a5a1-6c30-3721-e2bf973a23b8" name="Confrontation [C5]" revision="21" battleScribeVersion="2.03" authorName="squera" authorContact="squer4@gmail.com" authorUrl="http://confrontation.cdritalia.org/forum/viewforum.php?f=5" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <comment>IMPORTANTE:
 - Quando fate un&apos;armata, settate POW e FEDE a 0  (non lasciateli a -1)</comment>
   <readme>TODO:
 - per: lions, daikinee, druni, midnor, tirnabor, sessair
-    :: creare le entries qui per i fedeli/maghi e i loro spells/miracles sets
-    ::  aggiungere link a rule fierce , volo 
+:: creare le entries qui per i fedeli/maghi e i loro spells/miracles sets
+:: aggiungere link a rule fierce , volo
 - per tutti tranne acheron
-    :: modificare oggetti che aumentano POW / Aspetti
-    :: tickare &apos;round up&apos; in tutte le truppe
+:: modificare oggetti che aumentano POW / Aspetti
 - aggiungere dettagli pozioni e altri artefatti generali
-- aggiungere descrizioni delle entries per le virtu`
 
 TO FIX:
 - trovare un modo per settare i punti di fierce e scout correttamente
@@ -1350,13 +1348,28 @@ Max 75% of total AP of gaming format.</description>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Lungimiranza" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="c28e-d720-3f74-c573">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">la portata di tutti i miracoli del fedele che non hanno portata Personale, Contatto, Aura di Fede o Spe- ciale è aumentata di 5 cm. Inoltre la difficoltà o il costo in punti fede del primo miracolo che il fedele lancia ogni turno è ridotto di 1 punto, con un minimo di 1 punto fede. (spesso nel testo dei miracoli è ripetuta la portata in cm con formule del tipo “si scelga un bersaglio entro X cm” invece di “un bersaglio a portata”. In tal caso quel valore è la portata e quindi va aumentato di 5 cm)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
-        <selectionEntry id="8a93-c23f-ace8-2380" name="Ispirazione (2nd su carta)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8a93-c23f-ace8-2380" name="Favore divino (luce)" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
             <cost name="pts" typeId="points" value="0"/>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Favore divino" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="0f61-4f6b-4b89-5130">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">il fedele riduce di 1 il fervore
+di tutti i suoi miracoli, sia per la loro acquisizione che per il lancio (min 1 punto fede). Questa virtù non riduce il costo del miglioramento degli effetti dei miracoli ne i punti fede usati per rinforzare il legame;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
         <selectionEntry id="208e-9df9-37ca-8ebe" name="Perseveranza" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
@@ -1364,12 +1377,26 @@ Max 75% of total AP of gaming format.</description>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Perseveranza" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="26c1-b191-de04-b1e7">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">ll’attivazione il o i fedeli con questa virtù des- ignano uno dei miracoli di cui dispongono. Quel mira- colo può essere lanciato due volte questo turno, che esso riesca o meno. Questa virtù non può essere applicata a miracoli che evocano un combattente sul campo;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
         <selectionEntry id="9c8c-395b-d21b-9f54" name="Ispirazione (PG/1st su carta)" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="-1"/>
             <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
             <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ispirazione (2nd su carta)" hidden="false" id="379a-2af8-1676-80e3" collective="false">
+          <costs>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1385,6 +1412,14 @@ Max 75% of total AP of gaming format.</description>
             <cost name="pts" typeId="points" value="0"/>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Raccoglimento" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="aa4e-485d-3e52-2ba9">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">il fedele non subisce penalità dovute al Corpo
+a Corpo;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
         <selectionEntry id="7601-e9d0-6386-6abb" name="Venerazione" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
@@ -1392,6 +1427,29 @@ Max 75% of total AP of gaming format.</description>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Venerazione" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="2e89-bb87-bef8-a829">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">il fedele ottiene Pietà/2 o +1;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Volonta`" hidden="false" id="203d-f9a4-c449-7c08" collective="false">
+          <costs>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Volonta`" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="a9bf-492d-f03b-135d">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">quando un fedele nemico tenta di censurare un
+fedele con questa virtù, egli deve spendere 2 punti fede
+per determinare un malus di -1 al test di Divination;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1582,6 +1640,13 @@ Max 75% of total AP of gaming format.</description>
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <profiles>
+            <profile name="Dedizione" typeId="46562806-f0b8-6f1e-f4bb-749506248d47" typeName="Explanation" hidden="false" id="c3e3-dd2c-1d9c-58b2">
+              <characteristics>
+                <characteristic name="Description:" typeId="ff0c0115-9501-59cb-d4d0-b282d182f9e8">il fedele aumenta la sua aura di fede di 2,5 cm;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

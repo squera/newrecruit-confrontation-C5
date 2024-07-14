@@ -1681,6 +1681,42 @@ Se il bersaglio viene eliminato dal Fuoco del Monte Dannato, egli è immediatam
         <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Trasferimento dell&apos;agonia" hidden="false" id="d0f4-3735-218c-eb78" collective="false">
+      <modifiers>
+        <modifier type="set" value="1" field="80fd-fce4-0fcf-8d53">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="1d15-6e0c-7ab4-aa8a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="98a6-736c-2442-9862" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9870-847e-2b2d-2f45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Descrizione" typeId="59c438c5-9c9d-77ab-a8f2-44fc0593263c" typeName="Spell Card" hidden="false" id="af29-9a4b-3a51-be1d">
+          <characteristics>
+            <characteristic name="Intensity" typeId="a5ee0c5a-2235-cc84-42f3-e3320860e983">3</characteristic>
+            <characteristic name="Mana Cost" typeId="a7f17c01-e84c-882c-96f2-5d7f9af96438">2 tenebre</characteristic>
+            <characteristic name="Difficulty" typeId="74a3e70b-f6ea-9986-411a-6f42221e9cd7">7</characteristic>
+            <characteristic name="Frequence" typeId="553afca1-843a-ea5d-e5e7-226d1317ca22">1</characteristic>
+            <characteristic name="Duration" typeId="290e8e09-179a-a022-9453-4a9255541189">i</characteristic>
+            <characteristic name="Range" typeId="1c61e1d1-a27a-3dd9-732e-8aee4935a7e8">contatto</characteristic>
+            <characteristic name="Area of effect" typeId="02c0886e-fe6d-2ff6-c935-b05ad573ad53">il mago</characteristic>
+            <characteristic name="Description" typeId="65ba0f9a-35e6-a8b1-26f8-566e363a9657">Il mago sceglie un alleato con cui è in contatto di base. L&apos;alleato designato perde 1 ferita ed il mago recupera 1 ferita. Il mago può poi spendere 1 gemma di tenebre per ripetere questo processo, ma se l&apos;alleato viene così eliminato la magia ha immediatamente termine.
+Questa magia non può essere lanciata su Non Morti, Costrutti ed Elementali.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Spells" hidden="false" id="3cb1-bff3-5b4c-4a0f" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="3"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="2f96-98c6-9107-2a3c" name="Tifonismo" hidden="false" collective="false" import="true">
@@ -2122,42 +2158,6 @@ Questa magia non ha effetto sui Personaggi e sui combattenti evocati.</character
             <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d0f4-3735-218c-eb78" name="Trasferimento dell&apos;agonia" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="80fd-fce4-0fcf-8d53" value="1">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d15-6e0c-7ab4-aa8a" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a6-736c-2442-9862" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9870-847e-2b2d-2f45" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="af29-9a4b-3a51-be1d" name="Descrizione" hidden="false" typeId="59c438c5-9c9d-77ab-a8f2-44fc0593263c" typeName="Spell Card">
-              <characteristics>
-                <characteristic name="Intensity" typeId="a5ee0c5a-2235-cc84-42f3-e3320860e983">3</characteristic>
-                <characteristic name="Mana Cost" typeId="a7f17c01-e84c-882c-96f2-5d7f9af96438">2 tenebre</characteristic>
-                <characteristic name="Difficulty" typeId="74a3e70b-f6ea-9986-411a-6f42221e9cd7">7</characteristic>
-                <characteristic name="Frequence" typeId="553afca1-843a-ea5d-e5e7-226d1317ca22">1</characteristic>
-                <characteristic name="Duration" typeId="290e8e09-179a-a022-9453-4a9255541189">i</characteristic>
-                <characteristic name="Range" typeId="1c61e1d1-a27a-3dd9-732e-8aee4935a7e8">contatto</characteristic>
-                <characteristic name="Area of effect" typeId="02c0886e-fe6d-2ff6-c935-b05ad573ad53">il mago</characteristic>
-                <characteristic name="Description" typeId="65ba0f9a-35e6-a8b1-26f8-566e363a9657">Il mago sceglie un alleato con cui è in contatto di base. L&apos;alleato designato perde 1 ferita ed il mago recupera 1 ferita. Il mago può poi spendere 1 gemma di tenebre per ripetere questo processo, ma se l&apos;alleato viene così eliminato la magia ha immediatamente termine.
-Questa magia non può essere lanciata su Non Morti, Costrutti ed Elementali.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="3cb1-bff3-5b4c-4a0f" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="3"/>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="59a2-5afb-cff2-9f7e" name="Deathwave" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="80fd-fce4-0fcf-8d53" value="1">
@@ -2238,6 +2238,7 @@ Questo sortilegio non può essere lanciato su non morti, costrutti, immortali, 
         <entryLink id="46bf-c26b-76af-49e1" name="Sfida della morte" hidden="false" collective="false" import="true" targetId="9e1d-f23c-5037-961a" type="selectionEntry"/>
         <entryLink id="b1ee-3d2d-8a4f-68d0" name="Forza dell&apos;aldila`" hidden="false" collective="false" import="true" targetId="7338-ab7f-dcff-8952" type="selectionEntry"/>
         <entryLink id="d610-34f7-1d25-fb9e" name="Sonetto d&apos;eternita`" hidden="false" collective="false" import="true" targetId="2311-6968-08a8-87a9" type="selectionEntry"/>
+        <entryLink import="true" name="Trasferimento dell&apos;agonia" hidden="false" id="ae4e-2809-3dc9-4180" type="selectionEntry" targetId="d0f4-3735-218c-eb78"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c02f-002b-862c-4188" name="[Elementale]  Tenebra" hidden="false" collective="false" import="true">
@@ -2952,7 +2953,11 @@ Il bersaglio, anche se è già stato attivato durante il turno in corso, può
       </categoryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5ee7-eb29-3bce-13d6" name="Biopsia" hidden="false" collective="false" import="true"/>
-    <selectionEntryGroup id="f01d-5541-f0e2-d680" name="Technomanzia" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="f01d-5541-f0e2-d680" name="Technomanzia" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink import="true" name="Trasferimento dell&apos;agonia" hidden="false" id="87fb-85da-1ae2-5335" type="selectionEntry" targetId="d0f4-3735-218c-eb78"/>
+      </entryLinks>
+    </selectionEntryGroup>
     <selectionEntryGroup id="fda7-94a7-20bd-05ea" name="[Elementale]  Luce" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="2d68-ff12-974e-1c27" name="Ctonia" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="e27d-ddb2-a985-29b3" name="Teurgia" hidden="false" collective="false" import="true"/>
