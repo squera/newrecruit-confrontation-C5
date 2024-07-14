@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e822-05d1-c2b6-fb85" name="Miracles" revision="8" battleScribeVersion="2.03" authorName="Squera" library="false" gameSystemId="5fd679b4-a5a1-6c30-3721-e2bf973a23b8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+  <selectionEntries>
+    <selectionEntry id="9096-5481-ffb9-482b" name="[Acheron] Bogeyman Miracles (0 2 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e287-9226-8224-8caa" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="747d-132c-b6b5-429a" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e287-9226-8224-8caa" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2524-47da-cb89-8b92" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="747d-132c-b6b5-429a" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="be97-6587-520c-90b6" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="44ff-26e9-439b-ebd6" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="de6c-63e9-d5cd-d826" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="cd3b-f88a-0d48-eafa" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b37-46d7-480f-74a4" name="[Acheron] Bogeyman2 Miracles (0 2 2)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="beaf-4b1c-6d7e-ab76" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7973-ef85-4c93-b483" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="beaf-4b1c-6d7e-ab76" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77af-8fc9-77db-7144" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7973-ef85-4c93-b483" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0333-2817-d9f9-39e8" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a8db-b7b1-6bb4-3057" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="7cf1-99dc-8dac-d4b8" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="0522-c668-a8b6-0ac3" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4310-2b29-f145-a1b0" name="[Acheron] Kain Miracles (0 2 2)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d800-2a68-666e-7538" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="4c3d-d297-864b-2e09" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d800-2a68-666e-7538" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e752-4227-d854-fdd0" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c3d-d297-864b-2e09" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e761-e1fe-0331-ff4e" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8382-e8c0-4a38-bbd2" name="Onore dei Paladini Neri" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="512f-3b98-eee3-2067" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04c2-164a-6915-73bc" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0d69-b149-eb24-987e" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2"/>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802"/>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908"/>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad"/>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9"/>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="86d9-836d-2578-32a2" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d325-0084-0188-7265" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="0014-ebfa-88a6-8b8e" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="14c6-6640-52f3-0ce7" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a34-46dd-b4e6-6df8" name="[Acheron] Ejhin Miracles (2 2 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="396e-14ae-331e-eb79" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="9d02-f0e4-bda2-4e11" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="396e-14ae-331e-eb79" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2fc-34f8-153b-89de" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d02-f0e4-bda2-4e11" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="34a4-aba2-5638-368d" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c7ff-aa6b-6acb-3c10" name="Proroga Miracolosa" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea3-9581-1b08-152f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8076-4f9f-81f2-55b6" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2"/>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802"/>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908"/>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad"/>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9"/>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="b99d-72a5-b111-db14" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="084d-8b2e-bf71-8e78" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="9b05-57da-48e5-c9da" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="85d5-d814-31fb-4efd" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d976-e8d4-48b4-435d" name="[Acheron] Gravedigger[alive] Miracles (1 0 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c2b0-2e7a-a174-0d63" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5322-4453-72e6-723a" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c2b0-2e7a-a174-0d63" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fc6-fadf-f1b1-3348" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5322-4453-72e6-723a" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3bd3-3d96-8c0b-8e05" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4f07-9cd7-580f-73e0" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="0349-5787-eac9-3680" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="1d6c-e509-f524-72ff" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+        <entryLink id="7fb8-3f48-156b-58fd" name="Catena Sepolcrale (0 0 1)" hidden="false" collective="false" import="true" targetId="bac9-64e5-eb1d-fd9e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cffe-002b-f283-2e88" name="[Acheron] Gravedigger[dead] Miracles (1 0 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1669-74a3-c99a-c710" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7b0a-d4e1-b45a-dff8" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1669-74a3-c99a-c710" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a927-1665-38f6-ce0b" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0a-d4e1-b45a-dff8" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="374c-4192-57db-7c14" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5bc8-c770-7d36-9844" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="5609-0d6a-453e-641b" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="c179-02b3-f4aa-429d" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+        <entryLink id="9b52-abc9-f8a8-f9d3" name="Catena Sepolcrale (0 0 1)" hidden="false" collective="false" import="true" targetId="bac9-64e5-eb1d-fd9e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="819e-5ca4-9478-e1eb" name="[Acheron] Alderan Miracles (1 0 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0e83-ee8a-eb09-1105" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a2a9-3d11-f740-6f86" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0e83-ee8a-eb09-1105" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81d4-06e8-0397-c9c5" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a9-3d11-f740-6f86" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3d9b-3293-a715-134f" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f080-2cbc-1cfc-d6f9" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="e58f-2416-0a1f-ae6a" name="Acheron" hidden="false" collective="false" import="true" targetId="30c1-6ea6-7e16-0e00" type="selectionEntryGroup"/>
+        <entryLink id="686f-7181-4d42-1caf" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58a2-6f7f-245f-d3bb" name="[Dirz] Dama Claudia Miracles (2 1 2)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e9f-39b5-7aad-be0d" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="d3e0-dd45-3944-10ba" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e9f-39b5-7aad-be0d" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="06f7-db71-5034-2243" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e0-dd45-3944-10ba" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ae73-2283-34da-e09e" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bb2c-2e22-39a2-9d2f" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="463f-8281-c474-7b01" name="Dirz" hidden="false" collective="false" import="true" targetId="25e4-c722-1fed-a37f" type="selectionEntryGroup"/>
+        <entryLink id="29cf-aea8-0427-917d" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7841-e241-605c-d384" name="[Dirz] Sykho Volesterus Miracles (2 0 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f76-a166-7cc8-8c72" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="13f9-ceaa-f9f2-01e0" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f76-a166-7cc8-8c72" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da30-8092-8bd4-d6d7" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f9-ceaa-f9f2-01e0" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2fc6-9a72-91c3-b5d7" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="29a8-8939-7c34-db77" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="fae3-733f-a8d3-3b8d" name="Dirz" hidden="false" collective="false" import="true" targetId="25e4-c722-1fed-a37f" type="selectionEntryGroup"/>
+        <entryLink id="fb5c-c8d8-292e-6650" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b354-d320-706d-c51b" name="[Dirz] Vicar Miracles (1 0 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c4ab-3f7a-1b57-8e53" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="be1f-68e2-bca8-3229" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c4ab-3f7a-1b57-8e53" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0795-b856-5003-3645" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be1f-68e2-bca8-3229" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7c67-082e-dd7c-a7cc" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d1f8-71e7-1375-36d4" name="[Vie] Darkness" hidden="false" collective="false" import="true" targetId="2290-d730-2b5a-022b" type="selectionEntryGroup"/>
+        <entryLink id="954b-3b7a-ce5c-280d" name="Dirz" hidden="false" collective="false" import="true" targetId="25e4-c722-1fed-a37f" type="selectionEntryGroup"/>
+        <entryLink id="b526-f885-7fa1-05cb" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lame oscure (1 0 1)" hidden="false" id="6884-7a20-3a6e-8504" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81c7-ee88-ff72-f143" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Descrizione" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card" hidden="false" id="f9a7-0a48-a9b0-cff6">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">1 0 1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">1</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">5</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">10 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d">uer</characteristic>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Questo miracolo può essere lanciato su un Vicario o su un Belisarius amico.
+Il bersaglio beneficia di uno dei seguenti effetti a sua scelta:
+– se ha Contrattacco lo sostituisce con Ambidestro;
+– se ha Tossico/X ottiene un dado di tossico;
+– se ha Colpo da Maestro/X, aumenta X di 4 punti.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Spells" hidden="false" id="b5e6-c506-3cf9-799a" targetId="5965-5e43-7a2c-765e" primary="false"/>
+            <categoryLink name="Miracles" hidden="false" id="f49c-ae74-37a4-2ff4" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="1"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="6ec1-0eef-7cb8-2f1a" name="[Grifoni] Cappellano Miracles (0 1 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e0ca-72af-4441-318c" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="1a08-4cf9-8de2-b27b" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e0ca-72af-4441-318c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f08c-fc3c-d820-e0bb" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a08-4cf9-8de2-b27b" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="43fc-140f-1497-f16e" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cfc0-cae5-4e58-0b12" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="3b55-f602-ec76-ffbb" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="fb9b-d98e-69ad-c5f8" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff26-a048-2fb4-b76c" name="[Grifoni] Pretessa 2 Miracles (2 1 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51a2-fe34-88b4-c5e6" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="c05b-f9cb-939b-0866" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51a2-fe34-88b4-c5e6" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb90-198f-b6ac-227b" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05b-f9cb-939b-0866" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e910-3eb4-bc4d-79be" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0b0b-4c18-9378-832b" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="363e-7900-3d80-0ee3" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="9993-edb7-05c8-e44b" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf90-dc87-4b53-2aac" name="[Grifoni] Pretessa 1 Miracles (2 0 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a686-3bde-6ab9-0280" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5586-636d-122b-11c9" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a686-3bde-6ab9-0280" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b506-a634-22e6-aee4" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5586-636d-122b-11c9" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="074b-7b60-83aa-e67d" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0d63-6fad-b40c-594b" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="425a-457c-4f86-f0d0" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="5b10-0495-0720-58da" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2779-9e65-6afc-6858" name="[Grifoni] Sered Miracles (1 2 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20f5-b8f2-29cd-1e5b" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="4879-7df2-f88d-30af" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20f5-b8f2-29cd-1e5b" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f18f-4a09-fd02-feb8" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4879-7df2-f88d-30af" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ab1-4e02-cc8a-15b6" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5438-1c0d-e776-6e11" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="a1ed-62d5-b4ff-2189" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="defe-7f50-9cd4-1999" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0193-eb39-5707-523f" name="[Grifoni] Misericordia Miracles (0 2 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2194-51bb-e43f-553b" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="ecb0-df1f-2cb2-b3b8" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2194-51bb-e43f-553b" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e78-7514-fd10-cc07" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb0-df1f-2cb2-b3b8" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8056-8e4c-3ca4-0119" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="935c-d6c6-9f71-aa61" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="19e6-229b-e899-85dd" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="ca5d-f3a9-97e2-0295" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae21-4975-8857-fc7c" name="[Grifoni] Magistrato Miracles (0 1 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4550-7188-2479-3b26" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="ef07-2f3e-13a0-6053" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4550-7188-2479-3b26" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f23c-912f-28b9-5466" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef07-2f3e-13a0-6053" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9540-4131-2334-41b5" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ae47-2abb-38ce-3d76" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="26fc-3acd-f8dc-20cc" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="6885-7d47-18b5-dee3" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9df8-1188-f1e6-5a9e" name="[Grifoni] Saphon Miracles (1 2 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="57ee-a033-ed19-37cd" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="ef6d-f069-03ed-6559" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="57ee-a033-ed19-37cd" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f0b3-4b12-94fc-2626" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef6d-f069-03ed-6559" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1616-09e5-35b5-0b74" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ce14-1371-b810-b14f" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="3441-c686-c413-7bf9" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="1f61-f35c-771a-0139" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4285-b73d-883b-6508" name="[Grifoni] Saphon 2 Miracles (1 2 1)" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7c5-45bc-be44-256c" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="df27-c0bd-234a-5e67" value="1">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7c5-45bc-be44-256c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be9d-c74b-91e9-9522" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df27-c0bd-234a-5e67" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b2eb-1316-7191-df1d" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1f3-2523-7164-5969" name="[Vie] Light" hidden="false" collective="false" import="true" targetId="e2f3-d33a-a98e-661e" type="selectionEntryGroup"/>
+        <entryLink id="1126-6bee-ef99-af07" name="Grifoni" hidden="false" collective="false" import="true" targetId="405a-2090-d3e5-ca90" type="selectionEntryGroup"/>
+        <entryLink id="a8c6-d2c8-9937-6a59" name="[Vie] Universal" hidden="false" collective="false" import="true" targetId="3be3-6332-b26c-a77e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="bac9-64e5-eb1d-fd9e" name="Catena Sepolcrale (0 0 1)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a73-c476-7cbd-59bc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2726-34ff-9dd7-ca7f" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+          <characteristics>
+            <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 0 1</characteristic>
+            <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802"/>
+            <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">6</characteristic>
+            <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">s</characteristic>
+            <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">s</characteristic>
+            <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+            <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Il Fervore per acquisire questo miracolo è 1.
+Compiuto questo miracolo, l&apos;essenza vitale del prossimo combattente Ucciso nell&apos;aura di fede del becchino e&apos; catturata da quest&apos;ultimo e viene utilizzata per creare un nuovo zombie.
+Viene allora immediatamente evocato uno Zombie entro l&apos;aura di fede del Becchino, non in contatto con un avversario. Lo Zombie evocato dipende dal combattente che è stato eliminato:
+– Taglia Piccola o Media: uno Zombie d&apos;Acheron;
+– Nano di Taglia Piccola: Nano Degenerato (1);
+– Taglia Grande non Cavalleria: un Wolfen Zombie (2);
+– Taglia Grande Cavalleria: Zombie in Armatura;
+– Elementale, Immortale, Non Morto, Costrutto, Combattente Evocato o combattente con costo inferiore a 9 pa: nessuno Zombie Evocato.
+Il combattente eliminato che da vita allo Zombie non può tornare in gioco in alcun modo ed è quindi rimosso dalla partita. Questo miracolo ha termine solo dopo che e&apos; stato creato uno Zombie: a quel punto il becchino può lanciarlo nuovamente.
+Gli Zombie evocati dipendono dalla carta del Becchino, ed egli non può lanciare questo miracolo se ha già in gioco il massimo di combattenti evocati che può controllare</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e930-71e3-bf67-9ba2" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="1"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="2290-d730-2b5a-022b" name="[Vie] Darkness" hidden="false" collective="false" import="true">
+      <categoryLinks>
+        <categoryLink id="32f7-601c-ba96-64ca" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7b45-cea4-a5f2-275b" name="Invocazione dell&apos;Ira Tenebrae (0 0 1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df2-620e-36c4-a67d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5d5e-74c0-81b5-10aa" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 0 1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">3</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">6</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad"/>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">10 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Questo miracolo permette di invocare un Ira Tenebrae sul campo di battaglia e può essere lanciato un numero di volte per turno pari al rango del fedele.
+Se l&apos;invocazione è un successo la miniatura dell’Ira Tenebrae deve essere posta a livello 0 entro 10 cm dal fedele, in un punto che egli possa vedere.
+Il combattente così evocato segue le regole relative ai combattenti evocati.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4fed-f681-d667-e7cf" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="3"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7f05-7dfa-a4fd-ea2f" name="Sangue degli Abissi (1 0 0)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de00-43fc-15f4-5bac" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="14b4-4a02-d124-5174" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">1 0 0</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">1</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">res -1</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">15 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d">uer</characteristic>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">La difficoltà massima di questo miracolo è 9.
+II bersaglio beneficia dell&apos;abilità Rigenerazione/5. Se egli possiede Rigenerazione/6, beneficia invece di Rigenerazione/5. Se è già dotato di quest&apos;abilità, ed il valore X associato ad essa è inferiore o uguale a 5, egli può risolvere il suo primo tiro di rigenerazione del turno con 1 dado in più e tenere il risultato che gli conviene (questo miracolo non permette di effettuare una prova di rigenerazione con più di 2 dadi).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="e86d-fff7-573e-ec75" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3c6b-7d6d-7a3c-2e60" name="Forza delle Tenebre (1 1 0)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485b-bc2b-efe7-5ab6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4f83-3fe2-60c3-ba83" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">1 1 0</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">x libero</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">x + 4</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">20 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">La FOR del bersaglio è aumentata di un numero di punti uguale ad 1 più il Fervore scelto per questo miracolo (massimo: + 5 FOR).
+Gli effetti di questo miracolo possono essere mantenuti da un turno all&apos;altro se il fedele spende 2 punti fede durante la fase di mantenimento.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="dfbc-3cfa-0e9d-b7b7" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c0da-b390-ed9c-32a3" name="Occhio delle tenebre (1 0 0)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7524-f106-0561-35f6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5979-1146-7adb-17ef" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">1 0 0</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">1</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">6</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">p</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">p</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Se l&apos;invocazione ha successo, il fedele non necessita più di una linea di vista valida nei confronti dei bersagli dei suoi miracoli. Questo effetto dura fino al termine del turno. Esso può tuttavia essere mantenuto di turno in turno. Per farlo, il fedele deve spendere due punti d F.T. nel corso di ogni fase mantenimento.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="6b1a-efc6-e7ec-edd9" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fa3d-33ac-c216-7762" name="Ombra Inafferrabile (0 1 1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d89-9cb5-25bc-ac3d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a519-6367-3f4b-2748" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 1 1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">2</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">7</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">p</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">p</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Questo miracolo può essere compiuto subito prima che il fedele tenti un disimpegno. Se l&apos;invocazione ha successo, il fedele beneficia di un +6 al risultato finale del suo tiro di disimpegno.
+Ombra inafferrabile può essere compiuto anche quando il fedele è libero da qualsiasi avversario. In caso di successo, il fedele viene spostato di 10 cm in qualsiasi direzione, allo stesso livello d&apos;altitudine ed ignorando gli ostacoli. Questo effetto non è considerato uno spostamento.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="f63f-e188-238e-5443" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7501-e540-758b-4bdc" name="Armi sanguinarie (1 2 1 )" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3e6-0e0f-a385-78ee" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5797-2283-a907-bd83" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">1 2 1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">2</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">for bersaglio</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1 ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">10 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d">uer</characteristic>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Finché questo miracolo è attivo il bersaglio recupera 1 ferita ogni volta che causa almeno 2 ferite con un suo tiro per ferire causato da un attacco in corpo a corpo.
+Se il bersaglio dispone di Armi Nere, egli recupera invece 1 ferita ogni volta che causa almeno 1 ferita con un suo tiro per ferire causato da un attacco in corpo a corpo.
+É possibile così recuperare massimo 2 ferite per turno in questo modo.
+Questo miracolo non ha effetti su eventuali tiri per ferire addizionali ottenibili attaccando (come quelli dovuti al tossico) ne se lanciato su Costrutti o Non Morti che non siano Zombie.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="2894-b841-0f8a-709b" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="30c1-6ea6-7e16-0e00" name="Acheron" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="39a2-d9bb-e16f-3118" name="Risveglio del demone (0 2 1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec5-ad2b-b50b-1847" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4c67-b222-294f-6adf" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 2  1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802"/>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908"/>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">p</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">p</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d">uer</characteristic>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Il fervore di questo miracolo viene scelto prima dell&apos;invocazione e deve essere compreso fra 1 e 5. La difficoltà è pari al fervore scelto +3.
+Se l&apos;invocazione ha successo, il fedele guadagna un numero di punti di bonus uguale al fervore scelto +1 e può ripartire questi punti fra le sue caratteristiche come se fossero punti mutageno e lui avesse Mutageno/0. SeilfedeleèlegatoallacasataDeVanth, l&apos;Area d&apos;Effetto di questo miracolo diventa “un combattente” e la portata diventa “Aura di Fede”.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="c2e0-d3f4-6fc5-4e47" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+            <categoryLink id="231e-207f-0237-44df" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5eb9-519f-9612-2ad1" name="Maleficio di Salauel (0 1 1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="045b-d982-f9cb-5fdf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ac8a-205d-b7e0-b6bb" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 1 1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">2</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908"/>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad"/>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">a o f</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Questo miracolo può essere invocato solo su combattente amico dotato dell&apos;abilità Non-Morto e la difficoltà scelta deve essere un numero pari.
+Durante il prossimo tiro per ferire inflitto dal bersaglio, la sua FOR è aumentata di un numero di punti uguali alla metà della difficoltà scelta per l&apos;invocazione. Se risultato di questo tiro è una ferita eccezionale, il bersaglio subisce 2 ferite in più.
+Un Combattente può trovarsi sotto l&apos;effetto di un solo Maleficio di Salauel per volta.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="97e1-8cf0-f6b9-718f" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+            <categoryLink id="270d-6c33-256c-4570" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3be3-6332-b26c-a77e" name="[Vie] Universal" hidden="false" collective="false" import="true">
+      <categoryLinks>
+        <categoryLink id="ab6a-4f11-e173-e5b7" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4c07-f6a2-d8e0-c2b2" name="Proroga Miracolosa (0 2 0)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9877-54f2-3408-fc99" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5efa-3727-9e26-b6d5" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 2 0</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802"/>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">6</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">15 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Il fedele può lanciare questo miracolo anche al termine della fase di attivazione ed il Fervore di questo miracolo dipende dal numero di ferite subite dal bersaglio:
+– 1 ferita: fervore 2;
+– 2 ferite: fervore 3;
+– 3 o più ferite: fervore 4
+Se l&apos;evocazione ha successo, il bersaglio è curato di un livello di ferite.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="751b-cb01-691e-a779" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b358-10c9-cf1d-7fa0" name="Versetti della rapidita` (0 0 1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c23c-7cb2-506d-1243" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="024f-b7ff-8765-41f7" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 0 1</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">2</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908"/>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">15cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d"/>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">La difficoltà di questo miracolo è pari al valore più altro fra la Forza del combattente e la Forza della sua arma da tiro ed aumenta di 1 punto se il bersaglio costa più di 35 punti.
+Il bersaglio ottiene Implacabile/1 o aumenta il valore dell&apos;abilità di 1. Inoltre, se il combattente dispone di un arma da tiro e non è un&apos;Artiglieria, egli può decidere di convertire parte o tutti i punti della sua abilità Implacabile in altrettanti tiri supplementari, fino ad un massimo di 2 tiri supplementari.
+Un combattente sotto gli effetti di questo miracolo non può utilizzare le abilità Ricarica Rapida o Mira.
+Uno stesso combattente può essere bersaglio di questo miracolo una sola volta per turno.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="8c32-82b8-8747-b80f" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="25e4-c722-1fed-a37f" name="Dirz" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="fcf1-e618-18fb-86c9" name="Stretta di Arh Tolth (0 1 0)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fc7-3c85-bdc3-3053" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b57e-693a-51d2-f029" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 1 0</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">1</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">6</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">5 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d">fine partita</characteristic>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">Il bersaglio subisce una ferita e non potrà più tirare per il resto della partita.
+In contropartita egli ottiene +2 FOR ed acquisisce Feroce.
+Se il miracolo è lanciato su di un Fedele di Arh-Tolth, su un Belisarius o su una Furia Purpurea, questo non subirà la ferita durante la trasformazione.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="eb96-cb37-1c7b-07c0" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+            <categoryLink id="1eaf-65b4-fc23-b664" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d82-3045-703d-899e" name="Tunica di sangue (0 1 0)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34f9-3acb-1d1c-f7df" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6845-43c4-5102-384f" name="Descrizione" hidden="false" typeId="5a167c22-774c-795f-17f4-00062613d0fd" typeName="Miracle Card">
+              <characteristics>
+                <characteristic name="Aspetti" typeId="5efc-b940-ae59-f8d2">0 1 0</characteristic>
+                <characteristic name="Fervore" typeId="b8fb-8240-e49d-a802">2</characteristic>
+                <characteristic name="Difficolta`" typeId="356a-95af-2838-f908">8</characteristic>
+                <characteristic name="Area" typeId="607c-b4e2-dea9-c7ad">1ff</characteristic>
+                <characteristic name="Portata" typeId="8303-15dc-fe53-dde9">15 cm</characteristic>
+                <characteristic name="Durata" typeId="7750-5b78-d414-5a4d">fine partita</characteristic>
+                <characteristic name="Descrizione" typeId="0b42-8903-203e-54db">La Tunica di sangue può essere lanciata solo su combattenti alleato di Rango Regolare con Mutageno/X.
+Il bersaglio beneficia di +3 FOR e RES fino al termine della partita, ma il suo valore di Mutageno diminuisce di 1 punto (min 0, se ha meno non varia) e non può più posizionare dadi in difesa nelle mischie cui partecipa.
+Questo miracolo non ha effetti su costrutti e non-morti.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="5f14-1bfc-2667-bef3" name="Spells" hidden="false" targetId="5965-5e43-7a2c-765e" primary="false"/>
+            <categoryLink id="e31a-39c0-aee8-d807" name="Miracles" hidden="false" targetId="8893-6766-fe3e-5c40" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+            <cost name="FEDE" typeId="7347-c939-8362-2a34" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="405a-2090-d3e5-ca90" name="Grifoni" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="e2f3-d33a-a98e-661e" name="[Vie] Light" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="dc58-a617-55d1-764b" name="[Vie] Destiny" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="42de-cc3f-f812-8333" name="Lions" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="e752-f376-318b-5d4d" name="Mid-Nor" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="6a22-d310-ea39-283c" name="Tir-Na-Bor" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="708d-6490-4452-c0aa" name="Druni" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
+</catalogue>
