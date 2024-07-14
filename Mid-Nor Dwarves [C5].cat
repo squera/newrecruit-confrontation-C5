@@ -435,7 +435,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -488,7 +488,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -551,7 +551,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -594,7 +594,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -715,7 +715,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -920,7 +920,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -968,7 +968,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1030,7 +1030,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1073,7 +1073,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1117,7 +1117,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1349,7 +1349,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1398,7 +1398,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1490,7 +1490,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1537,7 +1537,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1716,7 +1716,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1759,7 +1759,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1809,7 +1809,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1852,7 +1852,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1895,7 +1895,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1938,7 +1938,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1983,7 +1983,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2031,7 +2031,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2075,7 +2075,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2119,7 +2119,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2163,7 +2163,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2207,7 +2207,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2254,7 +2254,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2297,7 +2297,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2345,7 +2345,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2388,7 +2388,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2431,7 +2431,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2474,7 +2474,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2518,7 +2518,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -2562,7 +2562,7 @@ Ephorat - presenza di almeno 1 dei 3 dominanti ogni 400 pa</description>
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>

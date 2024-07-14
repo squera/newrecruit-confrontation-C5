@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f228-3b3f-693e-e31f" name="TEMPLATxE" revision="5" battleScribeVersion="2.03" authorName="squera" library="false" gameSystemId="5fd679b4-a5a1-6c30-3721-e2bf973a23b8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+  <selectionEntries>
+    <selectionEntry id="0a3f-ed43-86ac-ae72" name="Character - Magician - initiate" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3cbf-b73f-2361-6dbc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="51b2-1c68-b1d7-cd54" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c42d-8f9b-8e3b-e9de" hidden="false" targetId="c5280396-d7d1-aff6-0b60-b4fdb95e0780" primary="true" name="Characters"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2742-d12c-ce47-2fad" name="Artifacts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6263-15b5-94d9-f006" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d88e-9714-f4c9-1ea6" name="Artefacts-common [army book]" hidden="false" collective="false" import="true" targetId="fb3a-0e9c-5480-1311" type="selectionEntryGroup"/>
+            <entryLink id="ae46-cb48-d027-2388" name="Artifacts (magicians)" hidden="false" collective="false" import="true" targetId="e783-1435-1d9d-fd0c" type="selectionEntryGroup"/>
+            <entryLink id="f561-855e-2e0f-ead1" name="Artifacts (common)" hidden="false" collective="false" import="true" targetId="2d3b-e741-9722-cdb7" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="611f-2448-1b4f-bfbc" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+        <entryLink id="0751-e4b5-4fd2-6148" name="[Rule] Magician: Initiate (Character)" hidden="false" collective="false" import="true" targetId="5be6-19ac-5c96-54bb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbed-0df6-3923-1d93" name="Character - Magician - adept" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f9d1-4c1d-68c2-c1bf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="65db-180e-3704-2baa" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4eec-8bcf-1616-ba19" hidden="false" targetId="c5280396-d7d1-aff6-0b60-b4fdb95e0780" primary="true" name="Characters"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0d82-569a-a895-bf29" name="Artifacts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e3e-a5e5-29fc-b7c0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ba1b-726e-3a49-ae52" name="Artefacts-common [army book]" hidden="false" collective="false" import="true" targetId="fb3a-0e9c-5480-1311" type="selectionEntryGroup"/>
+            <entryLink id="1131-090f-b652-a04c" name="Artifacts (magicians)" hidden="false" collective="false" import="true" targetId="e783-1435-1d9d-fd0c" type="selectionEntryGroup"/>
+            <entryLink id="e26f-2378-e8c1-a6f5" name="Artifacts (common)" hidden="false" collective="false" import="true" targetId="2d3b-e741-9722-cdb7" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2fb1-44f7-794f-073b" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+        <entryLink id="debd-8757-cfc6-15c4" name="[Rule] Magician: Adept (Character)" hidden="false" collective="false" import="true" targetId="4bc7-3f8a-423d-a0da" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4670-cb74-9a35-a05f" name="Character - Faithful - devout" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="38f9-d55a-306c-c14f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="39ac-3c39-45b7-3ec8" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c3f3-07e5-cc4a-decc" hidden="false" targetId="c5280396-d7d1-aff6-0b60-b4fdb95e0780" primary="true" name="Characters"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2a7e-1fdb-debc-0877" name="Artifacts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3715-5f69-ab23-2d41" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fe27-c7b8-a36e-7189" name="Artefacts-common [army book]" hidden="false" collective="false" import="true" targetId="fb3a-0e9c-5480-1311" type="selectionEntryGroup"/>
+            <entryLink id="49b5-3763-ff80-f1ca" name="Artifacts (faithfuls)" hidden="false" collective="false" import="true" targetId="ee45-65a0-52f9-a143" type="selectionEntryGroup"/>
+            <entryLink id="27da-a01a-f9b5-83b5" name="Artifacts (common)" hidden="false" collective="false" import="true" targetId="2d3b-e741-9722-cdb7" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ee38-8211-260d-85f6" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+        <entryLink id="def2-a29b-1193-f145" name="[Rule] Faithful: Devout (Character)" hidden="false" collective="false" import="true" targetId="1a93-6d2c-7d34-9245" type="selectionEntryGroup"/>
+        <entryLink id="5a7c-63d6-aabb-8792" name="Virtues (characters)" hidden="false" collective="false" import="true" targetId="e60e-0713-6116-756b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c9f-beb3-2f03-74e4" name="Character - Faithful - zealot" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0042-d373-d5f5-9f48" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c56e-fedc-b848-09ec" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="759a-d891-8375-41ed" hidden="false" targetId="c5280396-d7d1-aff6-0b60-b4fdb95e0780" primary="true" name="Characters"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9440-e8cf-18d5-9b0d" name="Artifacts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="927e-fe50-eb7f-c674" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3592-17bc-a43d-df7a" name="Artefacts-common [army book]" hidden="false" collective="false" import="true" targetId="fb3a-0e9c-5480-1311" type="selectionEntryGroup"/>
+            <entryLink id="b622-d3c1-9686-a8c2" name="Artifacts (faithfuls)" hidden="false" collective="false" import="true" targetId="ee45-65a0-52f9-a143" type="selectionEntryGroup"/>
+            <entryLink id="a320-5777-e7cb-40ee" name="Artifacts (common)" hidden="false" collective="false" import="true" targetId="2d3b-e741-9722-cdb7" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3bb0-e087-ea9a-d7f6" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+        <entryLink id="7951-9809-44b7-cf40" name="[Rule] Faithful: Zealot (Character)" hidden="false" collective="false" import="true" targetId="e54c-362f-2384-bd8d" type="selectionEntryGroup"/>
+        <entryLink id="a362-480e-a10b-7cda" name="Virtues (characters)" hidden="false" collective="false" import="true" targetId="e60e-0713-6116-756b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0f8-e918-4018-7853" name="Character - Warrior" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="da40-7209-fa24-bb80" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a149-4d1b-b107-f593" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="57f3-732d-b3ff-9154" hidden="false" targetId="c5280396-d7d1-aff6-0b60-b4fdb95e0780" primary="true" name="Characters"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1f18-9c46-d892-2259" name="Artifacts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f6d-9d56-a0b8-171c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="57c9-dfa0-7a73-b8db" name="Artefacts-common [army book]" hidden="false" collective="false" import="true" targetId="fb3a-0e9c-5480-1311" type="selectionEntryGroup"/>
+            <entryLink id="f774-84c4-40b3-c58c" name="Artifacts (common)" hidden="false" collective="false" import="true" targetId="2d3b-e741-9722-cdb7" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dca2-7284-a3c4-4a70" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d189-53d2-7299-72f3" name="Troop x2" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="dfd2-5dbd-fdbe-0328" value="2">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="200" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dfd2-5dbd-fdbe-0328" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f493-0d55-f639-d26d" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055"/>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8d6a-37e1-7f0d-5713" hidden="false" targetId="9aa5f78a-3adb-85d6-0d69-3b4622200965" primary="true" name="Troops"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a18-ccbc-15ef-3af9" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="14"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bf2-4a50-209a-fb7f" name="Troop x3" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="9fcf-462e-608d-eafd" value="3">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="200" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9fcf-462e-608d-eafd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="76a6-a8f9-84f6-5cb3" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055"/>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bab3-beb1-98d0-f33b" hidden="false" targetId="9aa5f78a-3adb-85d6-0d69-3b4622200965" primary="true" name="Troops"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5a80-db39-f970-b3ef" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="14"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19cf-41b6-e2f6-f0e8" name="Troop x1" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="373c-2fdc-f405-fe14" value="1">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="200" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="373c-2fdc-f405-fe14" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="de1a-5cd7-839b-4e3c" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055"/>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3323-2236-6a56-390a" hidden="false" targetId="9aa5f78a-3adb-85d6-0d69-3b4622200965" primary="true" name="Troops"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="da41-a4a7-4f2f-a5a6" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="14"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e837-2e4f-6db1-e433" name="Troop faitful" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="ce74-0dad-acbe-85fd" value="2">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="200" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce74-0dad-acbe-85fd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="465a-7e5a-2f71-466b" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8389-2fd8-f047-0a4f" hidden="false" targetId="9aa5f78a-3adb-85d6-0d69-3b4622200965" primary="true" name="Troops"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0a55-0aa9-3172-1a76" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+        <entryLink id="1845-8b2a-6431-57d7" name="Rule: Total Mystic level +1" hidden="false" collective="false" import="true" targetId="8a94-1acb-f1c3-81b6" type="selectionEntry"/>
+        <entryLink id="8444-7613-f010-faa7" name="Virtues (non-chars)" hidden="false" collective="false" import="true" targetId="c1ab-ae0d-0f78-79fd" type="selectionEntryGroup"/>
+        <entryLink id="ed9e-691c-586c-64f7" name="Choose How Many Per Card (FEDE 2)" hidden="false" collective="false" import="true" targetId="f06d-8dda-5f31-0712" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="24"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="487c-4935-1dcd-797d" name="Troop mage" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="4c8c-9596-dff9-ead7" value="2">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="200" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4c8c-9596-dff9-ead7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6f4a-b178-70b5-4ddb" name="Description" page="0" hidden="false" typeId="49dce5e2-52bf-0fc1-0d57-8c7fc051a5e7" typeName="Profile Card">
+          <characteristics>
+            <characteristic name="Mov" typeId="43ca05d2-93b1-2e69-9247-5222e6a3e660">10</characteristic>
+            <characteristic name="Ini" typeId="62faceac-a790-f73b-e92b-95f8153c1881"/>
+            <characteristic name="Atk-Str" typeId="f9648226-7792-8e8d-fb39-d602d9ccc4a4"/>
+            <characteristic name="Def-Res" typeId="809ddebf-f707-4856-6d6a-24e422824c55"/>
+            <characteristic name="Aim" typeId="a0cc3c53-2fe7-a648-c1af-a479c3417055">-</characteristic>
+            <characteristic name="Cou/Fea" typeId="26657305-fba2-144e-cf23-b4c61e818bcc"/>
+            <characteristic name="Dis" typeId="120f8979-c55d-0da5-e6ee-00bc122d3684"/>
+            <characteristic name="Pow" typeId="82511ef5-ecc0-fef5-e494-97d49e272e08"/>
+            <characteristic name="Fervour" typeId="56449f83-d9a2-b41a-375e-82cfae681abd"/>
+            <characteristic name="Abilities" typeId="9e96c332-0d20-5769-9724-bffde07d5b4c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0358-1b23-bcbe-0c79" hidden="false" targetId="9aa5f78a-3adb-85d6-0d69-3b4622200965" primary="true" name="Troops"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0c44-3915-0dfe-b35d" name="Affiliations" hidden="false" collective="false" import="true" targetId="9f6a-be5b-bf2d-2ce0" type="selectionEntryGroup"/>
+        <entryLink id="9455-0929-954f-4e7b" name="[Rule] Mystic: Rank 1" hidden="false" collective="false" import="true" targetId="e79c-21e9-9d8a-17fa" type="selectionEntryGroup"/>
+        <entryLink id="b9f1-3a5d-880e-d053" name="Choose How Many Per Card (POW 3)" hidden="false" collective="false" import="true" targetId="ddb8-79cb-2595-42da" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="ce7d-374a-8be8-880f" name="Affiliation #1" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a38-9d69-3961-836c" name="Affiliation #2" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bda1-9b4d-cbe6-4f09" name="Affiliation #3" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f40d-6c4e-15d9-3f04" name="Affiliation #4" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="add9-ab22-5693-36e3" name="Affiliation #5" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6925-427a-cb68-5336" name="Affiliation #6" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cef0-c3db-197a-8c19" name="Affiliation #7" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d38-dc4b-9c16-63b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d38-dc4b-9c16-63b9" name="Unaffiliated" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cef0-c3db-197a-8c19" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="add9-ab22-5693-36e3" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce7d-374a-8be8-880f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a38-9d69-3961-836c" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bda1-9b4d-cbe6-4f09" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6925-427a-cb68-5336" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f40d-6c4e-15d9-3f04" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="POW" typeId="80fd-fce4-0fcf-8d53" value="0"/>
+        <cost name="FEDE" typeId="7347-c939-8362-2a34" value="0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="9f6a-be5b-bf2d-2ce0" name="Affiliations" hidden="false" collective="false" import="true" defaultSelectionEntryId="b823-0426-24d1-03c9">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b201-3375-0c0e-84d3" hidden="false" collective="false" import="true" targetId="ce7d-374a-8be8-880f" type="selectionEntry" name="Affiliation #1"/>
+        <entryLink id="7814-c0d9-b74d-af4f" hidden="false" collective="false" import="true" targetId="3a38-9d69-3961-836c" type="selectionEntry" name="Affiliation #2"/>
+        <entryLink id="78f2-8e37-f84c-1855" hidden="false" collective="false" import="true" targetId="bda1-9b4d-cbe6-4f09" type="selectionEntry" name="Affiliation #3"/>
+        <entryLink id="a392-6c4b-5846-d211" hidden="false" collective="false" import="true" targetId="f40d-6c4e-15d9-3f04" type="selectionEntry" name="Affiliation #4"/>
+        <entryLink id="7cac-ded0-167f-a71c" hidden="false" collective="false" import="true" targetId="add9-ab22-5693-36e3" type="selectionEntry" name="Affiliation #5"/>
+        <entryLink id="2bf9-b024-c16a-8f38" hidden="false" collective="false" import="true" targetId="6925-427a-cb68-5336" type="selectionEntry" name="Affiliation #6"/>
+        <entryLink id="90b1-9e05-e95f-1bb8" hidden="false" collective="false" import="true" targetId="cef0-c3db-197a-8c19" type="selectionEntry" name="Affiliation #7"/>
+        <entryLink id="b823-0426-24d1-03c9" hidden="false" collective="false" import="true" targetId="2d38-dc4b-9c16-63b9" type="selectionEntry" name="Unaffiliated"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2d3b-e741-9722-cdb7" name="Artifacts (common)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e783-1435-1d9d-fd0c" name="Artifacts (magicians)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ee45-65a0-52f9-a143" name="Artifacts (faithfuls)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

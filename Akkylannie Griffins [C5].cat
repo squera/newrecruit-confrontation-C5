@@ -542,7 +542,7 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -602,7 +602,7 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -648,7 +648,7 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -909,7 +909,7 @@ When Tiberius attacks and after seeing if the opponent defends successfully or n
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -959,7 +959,7 @@ When Tiberius attacks and after seeing if the opponent defends successfully or n
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1112,7 +1112,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1195,7 +1195,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1234,7 +1234,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1310,7 +1310,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1347,7 +1347,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3">
                   <repeats>
-                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1365,7 +1365,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3">
                   <repeats>
-                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1383,7 +1383,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3">
                   <repeats>
-                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1401,7 +1401,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3">
                   <repeats>
-                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+                    <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1431,7 +1431,7 @@ When attacked, Garell can always make a “Reaction Firing” with Extreme Uncti
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3">
           <repeats>
-            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false"/>
+            <repeat value="200" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="true"/>
           </repeats>
         </modifier>
       </modifiers>

@@ -4963,7 +4963,7 @@ Se la prova ha successo tutti i tiri per ferire che il bersaglio causa alla succ
           <modifiers>
             <modifier type="increment" field="maxInRoster" value="1">
               <repeats>
-                <repeat value="500" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" percentValue="true"/>
+                <repeat value="500" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" percentValue="false"/>
               </repeats>
             </modifier>
             <modifier type="set" field="hidden" value="false">
@@ -5107,7 +5107,7 @@ Se la prova ha successo tutti i tiri per ferire che il bersaglio causa alla succ
           <modifiers>
             <modifier type="increment" field="maxInRoster" value="3">
               <repeats>
-                <repeat value="300" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" percentValue="true"/>
+                <repeat value="300" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" percentValue="false"/>
               </repeats>
             </modifier>
             <modifier type="set" field="hidden" value="true">
@@ -5832,7 +5832,7 @@ Se la prova ha successo tutti i tiri per ferire che il bersaglio causa alla succ
           <modifiers>
             <modifier type="increment" field="maxInRoster" value="1">
               <repeats>
-                <repeat value="500" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" percentValue="true"/>
+                <repeat value="500" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" percentValue="false"/>
               </repeats>
             </modifier>
             <modifier type="decrement" field="points" value="3">

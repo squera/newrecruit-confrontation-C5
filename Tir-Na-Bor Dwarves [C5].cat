@@ -366,7 +366,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -413,7 +414,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -459,7 +461,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -500,7 +503,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -541,7 +545,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -655,7 +660,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -699,7 +705,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -754,7 +761,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -814,7 +822,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -1001,7 +1010,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -1206,7 +1216,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -1249,7 +1260,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -1292,7 +1304,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -1435,7 +1448,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -1538,7 +1552,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -1938,7 +1953,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="500.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -1993,7 +2009,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="500.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -2048,7 +2065,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="500.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -2103,7 +2121,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -2151,7 +2170,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -2199,7 +2219,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -2247,7 +2268,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="2.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -2295,7 +2317,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -2338,7 +2361,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -2441,7 +2465,8 @@
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -2839,7 +2864,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="500.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -2883,7 +2909,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="500.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3200,7 +3227,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3258,7 +3286,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="decrement" field="points" value="2.0">
@@ -3300,7 +3329,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3.0">
                   <repeats>
-                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3318,7 +3348,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3.0">
                   <repeats>
-                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3336,7 +3367,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3.0">
                   <repeats>
-                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3402,7 +3434,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3456,7 +3489,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -3516,7 +3550,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3570,7 +3605,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3624,7 +3660,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3668,7 +3705,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -3722,7 +3760,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3765,7 +3804,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -3802,7 +3842,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3.0">
                   <repeats>
-                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3820,7 +3861,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
               <modifiers>
                 <modifier type="increment" field="maxInRoster" value="3.0">
                   <repeats>
-                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                    <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3852,7 +3894,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="3.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -3911,7 +3954,8 @@ If you again roll a [6], it does not count as a double [6]. A result of [1] on t
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
-            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+            <repeat field="limit::points" scope="roster" value="200.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
           </repeats>
         </modifier>
       </modifiers>
@@ -5508,7 +5552,8 @@ The chosen fighter can be placed anywhere on the battlefield within 12,5 cm or l
           <modifiers>
             <modifier type="increment" field="maxInRoster" value="10.0">
               <repeats>
-                <repeat field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                <repeat field="limit::points" scope="roster" value="500.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
               </repeats>
             </modifier>
           </modifiers>
@@ -6223,7 +6268,8 @@ The chosen fighter can be placed anywhere on the battlefield within 12,5 cm or l
           <modifiers>
             <modifier type="increment" field="maxInRoster" value="1.0">
               <repeats>
-                <repeat field="limit::points" scope="roster" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="no child" repeats="1" roundUp="false"/>
+                <repeat field="limit::points" scope="roster" value="150.0" percentValue="true" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
+
               </repeats>
             </modifier>
           </modifiers>
